@@ -1,0 +1,38 @@
+/********** Polices **********/
+@font-face {
+    font-family: 'Agenda-Bold';
+    src: url('../font/agenda/AgendaBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agenda-Medium';
+    src: url('../font/agenda/AgendaMedium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agenda-Light';
+    src: url('../font/agenda/AgendaLight.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/********** Eléments de base **********/
+body {
+    font-family: 'Agenda-Light', 'Palatino Linotype', Arial, sans-serif;
+}
+
+
+/********** Barre du menu **********/
+.firstname {
+    font-family: 'Agenda-Light';
+    font-size: 1em;
+}
+
+.lastname {
+    font-family: 'Agenda-Bold';
+    font-size: 1em;
+}
