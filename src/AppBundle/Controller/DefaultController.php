@@ -96,8 +96,4 @@ class DefaultController extends Controller
         }
     } //End indexAction
 
-    public function servicesAction(Request $request)
-    {
-        return $this->render('default/services.html.twig');
-    }
 }
