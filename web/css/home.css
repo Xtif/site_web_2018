@@ -1,9 +1,109 @@
-.icone_technologie {
-	width: 100%;
+/*****Carousel*****/
+.carousel-caption {
+	background-color: rgba(208, 230, 234, 0.75);
+	left: 5%;
+	bottom: 100px;
+	text-align: left;
+	color: black;
 }
 
-.carousel-caption {
-	background-color: rgba(255, 255, 255, 0.7);
-	text-align: left;
+.carousel {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.carousel-inner {
+	max-height: 100%;
+}
+
+.carousel-item {
+	height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title-caroussel-caption {
+	font-family: 'Agenda-Bold';
+}
+
+.text-caroussel-caption {
+	font-family: 'Agenda-Medium';
+}
+
+.empty-div {
+	width: 100%;
+	height: 95vh;
+	z-index: -2;
+}
+
+/*****Services*****/
+.image-services {
+	max-height: 80vh;
+	max-width: 100%;
+}
+
+.bloc-services {
+	max-height: 100vh;
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+}
+
+.div-img-services {
+	height: 100%;	
+}
+
+/*****Technologies*****/
+.icone_technologie {
+	width: 10%;
+	margin: 1em;
+}
+
+.bloc-technologies {
+	background-color: #d0e6ea; 
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+
+.bloc-icone-technologies {
+	background-color: white;
+	border-radius: 10px;
+}
+
+/*****Realisations*****/
+.bloc-realisations {
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+
+.icone-realisation {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*****Contact*****/
+.bloc-contact {
+	background-color: #d0e6ea; 
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+
+.formulaire {
+	background-color: white;
+	border-radius: 10px;
+}
+
+.btn-info {
+	background-color: #138496;
+}
+
+.btn-info:hover {
+	background-color: #d0e6ea;
+	border-color: #d0e6ea;
 	color: black;
 }

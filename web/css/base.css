@@ -23,16 +23,44 @@
 /********** Eléments de base **********/
 body {
     font-family: 'Agenda-Light', 'Palatino Linotype', Arial, sans-serif;
+    font-size: 1em;
 }
 
+.clickable-link, .clickable-link:hover {
+    color: #138496;
+}
 
 /********** Barre du menu **********/
+nav {
+    background-color: #d0e6ea;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 5;
+    transition: all 0.5s ease-in-out;
+}
+
+nav:hover {
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
 .firstname {
     font-family: 'Agenda-Light';
-    font-size: 1em;
+    font-size: 1.2em;
+    line-height: 1em;
 }
 
 .lastname {
     font-family: 'Agenda-Bold';
-    font-size: 1em;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.logo-title {
+    line-height: 0.8em;
+}
+
+.subtitle {
+    font-size: 0.6em;
+    line-height: 1em;
 }
