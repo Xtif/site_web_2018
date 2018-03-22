@@ -138,8 +138,20 @@
 		width: 80%;
 	}
 
+	.carousel-caption {
+		width: 80%;
+	}
+
 	.icone-technologie {
 		width: 25%;
 		margin: 1em;
+	}
+
+	p, label, .btn {
+		font-size: 2em; 
+	}
+
+	.title-caroussel-caption, .title-competence {
+		font-size: 2.5em;
 	}
 }
